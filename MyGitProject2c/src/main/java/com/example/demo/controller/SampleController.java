@@ -1,5 +1,5 @@
 package com.example.demo.controller;
 
 public class SampleController {
-//高橋凜斗
+//高橋凜斗です
 }
