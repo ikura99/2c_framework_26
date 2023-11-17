@@ -15,7 +15,7 @@ public class gitLoginController {
 	}
 	
 
-	@RequestMapping(path = "/", method = RequestMethod.POST)
+	@RequestMapping(path = "/gititemlist", method = RequestMethod.POST)
 	public String gitloginPost() {
 		
 	return "gititemlist";
