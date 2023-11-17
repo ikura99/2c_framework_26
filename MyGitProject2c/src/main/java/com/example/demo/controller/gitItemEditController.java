@@ -14,7 +14,7 @@ public class gitItemEditController {
 	}
 
 	@RequestMapping(path = "/gititemedit2", method = RequestMethod.POST)
-	public String Edit2(String name, int price, Model model) {
+	public String Edit2(String name, String price, Model model) {
 		
 		model.addAttribute("name", name);	
 		model.addAttribute("price", price);
